@@ -26,12 +26,10 @@
                            "Name":"Josh",
                            "Title":"Level4",
                            "Employees":[  
-                              [  
                                  {  
                                     "Name":"Jimmy",
                                     "Title":"Level5"
                                  }
-                              ]
                            ]
                         }
                      ]
