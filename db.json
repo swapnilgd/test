@@ -1,11 +1,42 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "Name": "Mike",
+    "Title": "Level1",
+    "Employees": [
+      {
+        "Name": "Jon",
+        "Title": "Level2",
+        "Employees": [
+          {
+            "Name": "Susan",
+            "Title": "Level3",
+            "Employees": [
+              {
+                "Name": "Joe",
+                "Title": "Level4",
+                "Employees": [
+                  {
+                    "Name": "Jimmy",
+                    "Title": "Level5"
+                  }
+                ]
+              },
+              {
+                "Name": "Josh",
+                "Title": "Level4",
+                "Employees": [
+                  [
+                    {
+                      "Name": "Jimmy",
+                      "Title": "Level5"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
-}
+]
