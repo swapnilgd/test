@@ -1,47 +1,47 @@
-{
-  "posts": [
-    {
-    "Name": "Mike",
-    "Title": "Level1",
-    "Employees": [
-      {
-        "Name": "Jon",
-        "Title": "Level2",
-        "Employees": [
-          {
-            "Name": "Susan",
-            "Title": "Level3",
-            "Employees": [
-              {
-                "Name": "Joe",
-                "Title": "Level4",
-                "Employees": [
-                  {
-                    "Name": "Jimmy",
-                    "Title": "Level5"
+{  
+   "posts":[  
+      {  
+         "Name":"Mike",
+         "Title":"Level1",
+         "Employees":[  
+            {  
+               "Name":"Jon",
+               "Title":"Level2",
+               "Employees":[  
+                  {  
+                     "Name":"Susan",
+                     "Title":"Level3",
+                     "Employees":[  
+                        {  
+                           "Name":"Joe",
+                           "Title":"Level4",
+                           "Employees":[  
+                              {  
+                                 "Name":"Jimmy",
+                                 "Title":"Level5"
+                              }
+                           ]
+                        },
+                        {  
+                           "Name":"Josh",
+                           "Title":"Level4",
+                           "Employees":[  
+                              [  
+                                 {  
+                                    "Name":"Jimmy",
+                                    "Title":"Level5"
+                                 }
+                              ]
+                           ]
+                        }
+                     ]
                   }
-                ]
-              },
-              {
-                "Name": "Josh",
-                "Title": "Level4",
-                "Employees": [
-                  [
-                    {
-                      "Name": "Jimmy",
-                      "Title": "Level5"
-                    }
-                  ]
-                ]
-              }
-            ]
-          }
-        ]
+               ]
+            }
+         ]
       }
-    ]
-  }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   ],
+   "profile":{  
+      "name":"typicode"
+   }
 }
